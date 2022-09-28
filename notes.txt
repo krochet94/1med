@@ -1,0 +1,39 @@
+ <nav className="navbar navbar-expand-lg container-fluid d-flex justify-content-between p-3 shadow">
+        <div className="p-1 navbar-brand h-100 align-items-center justify-content-start d-flex flex-nowrap">
+          <Link to="/" className="h-100 me-3">
+            <img
+              src={"/logo.png"}
+              className="img-fluid logo h-100"
+              alt="krochet"
+            />
+          </Link>
+          <h4 className="text-white">
+            1MED Medical Equipment
+            <br />
+            and Supplies Trading
+          </h4>
+        </div>
+        <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul className="navlinks align-items-center h-100 text-center text-nowrap justify-content-end me-4 navbar-nav">
+            <li className="nav-item" onClick={() => navigate("/")}>
+              HOME
+            </li>
+            <li className="nav-item">ABOUT US</li>
+            <li className="nav-item">PRODUCTS</li>
+            <li className="nav-item">CONTACT</li>
+          </ul>
+        </div>
+      </nav>
+
+      
